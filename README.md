@@ -40,7 +40,14 @@ Como o jogo usa JavaScript puro e arquivos estáticos, não há etapa de build g
 - `src/scenes`: cadastro do dono da banca, menu, tutorial, seleção, mercado, resultado e configurações.
 - `src/ui`: componentes simples de interface.
 - `src/assets/vector`: personagens, itens, moedas e ícones em SVG interno.
+- `src/assets/images/menu_inicial.png`: arte premium usada como fundo responsivo do menu inicial.
 - `docs/AI_CODING_GUIDE.md`: documentação para orientar codificação assistida por IA.
+
+## Arte do menu inicial
+
+A tela inicial usa `src/assets/images/menu_inicial.png` apenas como cenário de fundo. O título, o texto dinâmico `Banca do(a) [nome]`, os botões e todas as interações continuam sendo renderizados por HTML, CSS e JavaScript.
+
+Para trocar a imagem futuramente, substitua o arquivo `src/assets/images/menu_inicial.png` mantendo a proporção 16:9 e deixando áreas livres no topo central e no centro inferior para as camadas HTML do menu.
 
 ## Expansão
 
