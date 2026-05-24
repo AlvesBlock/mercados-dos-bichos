@@ -1,0 +1,10 @@
+{
+  "name": "mercado-dos-bichinhos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/static-server.js",
+    "test": "node tests/math-engine.test.js"
+  }
+}
